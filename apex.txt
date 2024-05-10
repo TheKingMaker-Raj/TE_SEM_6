@@ -1,0 +1,45 @@
+public class MathCalc {
+    public void add(integer x , integer y){
+        integer sum = x+y;
+        System.debug('The addition of tw number is : ' + sum);
+    }
+    
+    public void sub(integer x , integer y){
+        integer sub = x-y;
+        System.debug('The substraction of the Numbers is : ' + sub);
+    }
+    
+    public void multi(integer x , integer y){
+        integer multi = x*y;
+        System.debug('The multiplication of the Numbers is : ' + multi);
+    }
+    
+    public void divide(Double x , Double y){
+        Double div = x/y;
+        System.debug('The Division of the Numbers is : ' + div);
+    }
+    
+    public void mod(integer x){
+        integer mod = 0;
+            if(x > 0){
+                mod = x;
+            }
+        
+        else{
+          mod = -1*x;  
+        } 
+        System.debug('mod value is : ' + mod);
+    }
+    
+    public void sqrt(Double x){
+        System.debug('The Square Root of the Numbers is : ' + Math.sqrt(x));
+    }
+    
+                     
+    public void maxofmax(integer x , integer y , integer z){
+        integer rnd = Math.max(x,y);
+        System.debug('The Max Num is ' + Math.max(z,rnd));
+    }
+                     
+    
+}
